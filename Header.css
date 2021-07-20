@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Permanent+Marker&display=swap');
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
