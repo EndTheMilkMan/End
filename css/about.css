@@ -1,0 +1,48 @@
+:root {
+    --mainColor: #d60bae;;
+  }
+  
+  *{
+      overflow: hidden
+  }
+  
+  h1{
+      font-family: monospace;
+      font-size: 50px;
+      text-align: left;
+      margin-left: 5%;
+  }
+  
+  @media screen and (max-width: 1124px) 
+   
+  {    
+   
+  .G { display: none; } 
+   
+  }
+  
+  a:hover {
+    font-family: monospace;
+    color: transparent;
+    -webkit-text-stroke: 2px var(--mainColor);
+  }
+  
+  @supports not(-webkit-text-stroke: 2px red) {
+    a:hover {
+      text-shadow:
+        3px 3px 0 var(--mainColor),
+        -1px -1px 0 var(--mainColor),
+        1px -1px 0 var(--mainColor),
+        -1px 1px 0 var(--mainColor),
+        1px 1px 0 var(--mainColor);
+    }
+  }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+  }
