@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+Hometitle {
+    font-family: Montserrat, sans-serief;
+    font-size:850%;
+    text-align: center;
+    float:left;
+    padding-top:75px
+}
