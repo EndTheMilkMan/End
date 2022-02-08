@@ -12,6 +12,13 @@
       text-align: left;
       margin-left: 5%;
   }
+
+  h2{
+    font-family: monospace;
+    font-size: 50px;
+    text-align: left;
+    margin-left: 5%;
+}
   .pink{
       color: #d60bae;
   }
