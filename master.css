@@ -171,6 +171,14 @@ a {
     text-align: center;
     color: #fff;
 }
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
 .dropbtn {
   color: white;
   font-size: 16px;
