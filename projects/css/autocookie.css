@@ -5,10 +5,8 @@
 .button {
     float:center;
     position:absolute;
-    outline-width: 1ch;
-    outline-color: red;
     font-family: Montserrat;
-    color:white;
+    color:rgb(173, 1, 1);
     font-size: 300%;
     text-align: center;
 }
